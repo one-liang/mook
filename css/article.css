@@ -597,9 +597,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mt-8 {
   margin-top: 2rem;
 }
-.mt-6 {
-  margin-top: 1.5rem;
-}
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -650,6 +647,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .aspect-\[350\/232\] {
   aspect-ratio: 350 / 232;
+}
+.aspect-\[125\/83\] {
+  aspect-ratio: 125 / 83;
 }
 .aspect-\[157\/100\] {
   aspect-ratio: 157 / 100;
@@ -717,9 +717,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .\!w-10 {
   width: 2.5rem !important;
 }
-.w-\[245px\] {
-  width: 245px;
-}
 .\!w-auto {
   width: auto !important;
 }
@@ -752,6 +749,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .max-w-\[728px\] {
   max-width: 728px;
+}
+.max-w-\[125px\] {
+  max-width: 125px;
 }
 .max-w-\[157px\] {
   max-width: 157px;
@@ -862,10 +862,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .gap-y-8 {
   row-gap: 2rem;
-}
-.gap-x-5 {
-  -moz-column-gap: 1.25rem;
-       column-gap: 1.25rem;
 }
 .space-x-\[6px\] > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -1606,6 +1602,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 325px;
   }
 
+  .xl\:w-\[245px\] {
+    width: 245px;
+  }
+
   .xl\:w-\[135px\] {
     width: 135px;
   }
@@ -1665,6 +1665,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xl\:flex-wrap {
     flex-wrap: wrap;
+  }
+
+  .xl\:items-start {
+    align-items: flex-start;
   }
 
   .xl\:justify-between {

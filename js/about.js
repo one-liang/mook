@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/header */ \"./src/js/components/header.js\");\n/* harmony import */ var _css_about_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/css/about.css */ \"./src/css/about.css\");\n\n // gotop\n\nvar requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  var goTopButton = document.querySelector(\"#gotop\");\n  var windowViewPortHeight = window.innerHeight;\n  var isRequestingAnimationFrame = false;\n\n  if (!goTopButton) {\n    return;\n  }\n\n  goTopButton.addEventListener(\"click\", function () {\n    window.scrollTo({\n      top: 0,\n      behavior: \"smooth\"\n    });\n  });\n  window.addEventListener(\"scroll\", function () {\n    if (!isRequestingAnimationFrame) {\n      requestAnimationFrame(filterGoTopButtonVisibility);\n      isRequestingAnimationFrame = true;\n    }\n  });\n\n  function filterGoTopButtonVisibility() {\n    var windowPageYOffset = window.pageYOffset || document.documentElement.scrollTop;\n\n    if (windowPageYOffset > windowViewPortHeight) {\n      goTopButton.classList.add(\"show\");\n      isRequestingAnimationFrame = false;\n    } else {\n      goTopButton.classList.remove(\"show\");\n      requestAnimationFrame(filterGoTopButtonVisibility);\n    }\n  }\n}); // gotop end\n\n//# sourceURL=webpack://webpack-demo/./src/js/about.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/header */ \"./src/js/components/header.js\");\n/* harmony import */ var _css_about_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/css/about.css */ \"./src/css/about.css\");\n/* harmony import */ var _images_about_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/images/about.jpg */ \"./src/images/about.jpg\");\n\n\n // gotop\n\nvar requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  var goTopButton = document.querySelector(\"#gotop\");\n  var windowViewPortHeight = window.innerHeight;\n  var isRequestingAnimationFrame = false;\n\n  if (!goTopButton) {\n    return;\n  }\n\n  goTopButton.addEventListener(\"click\", function () {\n    window.scrollTo({\n      top: 0,\n      behavior: \"smooth\"\n    });\n  });\n  window.addEventListener(\"scroll\", function () {\n    if (!isRequestingAnimationFrame) {\n      requestAnimationFrame(filterGoTopButtonVisibility);\n      isRequestingAnimationFrame = true;\n    }\n  });\n\n  function filterGoTopButtonVisibility() {\n    var windowPageYOffset = window.pageYOffset || document.documentElement.scrollTop;\n\n    if (windowPageYOffset > windowViewPortHeight) {\n      goTopButton.classList.add(\"show\");\n      isRequestingAnimationFrame = false;\n    } else {\n      goTopButton.classList.remove(\"show\");\n      requestAnimationFrame(filterGoTopButtonVisibility);\n    }\n  }\n}); // gotop end\n\n//# sourceURL=webpack://webpack-demo/./src/js/about.js?");
 
 /***/ }),
 
@@ -60,6 +60,17 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://webpack-demo/./src/css/plugins/splide.min.css?");
+
+/***/ }),
+
+/***/ "./src/images/about.jpg":
+/*!******************************!*\
+  !*** ./src/images/about.jpg ***!
+  \******************************/
+/***/ ((module) => {
+
+"use strict";
+eval("module.exports = \"./images/about.jpg\";\n\n//# sourceURL=webpack://webpack-demo/./src/images/about.jpg?");
 
 /***/ })
 
