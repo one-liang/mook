@@ -1147,8 +1147,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .pl-6 {
   padding-left: 1.5rem;
 }
-.pt-14 {
-  padding-top: 3.5rem;
+.\!pt-14 {
+  padding-top: 3.5rem !important;
 }
 .\!pb-\[44px\] {
   padding-bottom: 44px !important;
@@ -1830,8 +1830,8 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-bottom: 1rem;
   }
 
-  .xl\:pt-0 {
-    padding-top: 0px;
+  .xl\:\!pt-0 {
+    padding-top: 0px !important;
   }
 
   .xl\:\!pb-0 {
