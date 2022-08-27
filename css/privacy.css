@@ -703,8 +703,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .\!h-10 {
   height: 2.5rem !important;
 }
-.h-\[calc\(100vh-56px\)\] {
-  height: calc(100vh - 56px);
+.h-screen {
+  height: 100vh;
 }
 .h-\[244px\] {
   height: 244px;
