@@ -1,14 +1,15 @@
 # mook
 
 ## 頁面
-- [home page](https://for-demo.github.io/mook/)
-- [list page](https://for-demo.github.io/mook/list)
-- [tag list page](https://for-demo.github.io/mook/tagList)
-- [article page](https://for-demo.github.io/mook/article)
-- [search list page](https://for-demo.github.io/mook/searchList)
-- [about page](https://for-demo.github.io/mook/about)
-- [copyright page](https://for-demo.github.io/mook/copyright)
-- [privacy page](https://for-demo.github.io/mook/privacy)
+- [home page](https://one-liang.github.io/mook/)
+- [list page](https://one-liang.github.io/mook/list)
+- [tag list page](https://one-liang.github.io/mook/tagList)
+- [article page](https://one-liang.github.io/mook/article)
+- [search list page](https://one-liang.github.io/mook/searchList)
+- [search list page](https://one-liang.github.io/mook/searchList)
+- [about page](https://one-liang.github.io/mook/about)
+- [copyright page](https://one-liang.github.io/mook/copyright)
+- [privacy page](https://one-liang.github.io/mook/privacy)
 
 ## 用到的套件
 - [輪播套件 - splidejs](https://splidejs.com/)
